@@ -1,0 +1,88 @@
+
+
+
+.ContenedorPadre{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 80%;
+    height: 33.5rem;
+    background-color: #037bc0;
+    border: 10px solid #E4E4E9;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 40px;
+    margin-top: 3rem;
+    padding: 2rem 2rem 2rem 2rem;
+    &-ArticleSalud{
+        height: 31rem;
+        text-align: center;
+        color: #181B7B;
+        background-color: whitesmoke;
+        border: 5px solid #E4E4E9;
+        border-radius: 20px;
+        padding: 1rem;
+        overflow: hidden;
+    }
+    &-Imagen {
+        margin-top: 2rem;
+        border-radius: 150px;
+        width: 8rem;
+        height: 12rem;
+        
+    }
+    &-Subtitle{
+        font-weight:900;
+    }
+
+    &-Text{
+        line-height: 2rem;
+    }
+
+
+    &-ArticleInformacion{
+        color: #181B7B;
+        grid-column: 4/6;
+        padding-left: 2rem;
+        overflow: hidden;
+    }
+    &-Title1{
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    &-Text1{
+        border-radius: 10px;
+        padding: 1rem;
+        background-color:whitesmoke;
+        line-height: 2rem;
+        font-weight: bold;
+    }
+    &-Text2{
+        border-radius: 10px;
+        padding: 1rem;
+        background-color:whitesmoke;
+        line-height: 2rem;
+        margin-top: 3rem;
+        
+    }
+    &-Link{
+            text-decoration: none;
+            font-weight: bolder;
+        }   
+    &-Button{
+        display: block;
+        width: 6rem;
+        margin-top: 3rem;
+        padding: 1rem 3rem;
+        background-color: whitesmoke;
+        border: 5px solid #E4E4E9;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        
+        &:hover{
+        background-color: #037bc0;
+        color:#E4E4E9;
+    }
+    }
+    
+}

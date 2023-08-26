@@ -1,0 +1,36 @@
+@import "seccion.scss";
+
+
+body{
+    margin: 0;
+}
+
+.contenedor{
+    border: 1px solid lightblue;
+    margin-top: 3rem;
+    background-color: lightblue;
+}
+
+.Navigation{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+
+    &-List{
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &-Item{
+        list-style: none;
+    }
+
+    &-Link{
+        text-decoration: none;
+    }
+
+}
+
